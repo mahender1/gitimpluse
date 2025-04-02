@@ -2,10 +2,10 @@ import React from 'react';
 
 const HomeCategories = () => {
   const categories = [
-    { name: 'Cardio', image: '/c1.png' },
-    { name: 'Selectorized', image: '/c2.png' },
-    { name: 'Plate Loaded', image: '/c3.png' },
-    { name: 'Functional', image: '/c4.png' },
+    { name: 'Cardio', image: './c1.png' },
+    { name: 'Selectorized', image: './c2.png' },
+    { name: 'Plate Loaded', image: './c3.png' },
+    { name: 'Functional', image: './c4.png' },
   ];
 
   return (

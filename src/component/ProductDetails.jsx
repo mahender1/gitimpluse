@@ -20,13 +20,13 @@ const product = {
     <li>Programmi di allenamento già impostati.</li>
   </ul>`,
   images: [
-    "/productImage.png",
-    "/productImage.png",
-    "/productImage.png",
-    "/productImage.png",
-    "/productImage.png",
-    "/productImage.png",
-    "/productImage.png",
+    "./productImage.png",
+    "./productImage.png",
+    "./productImage.png",
+    "./productImage.png",
+    "./productImage.png",
+    "./productImage.png",
+    "./productImage.png",
   ],
 };
 

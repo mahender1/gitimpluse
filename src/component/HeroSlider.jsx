@@ -39,7 +39,7 @@ const HeroSlider = () => {
 
   const slides = [
     {
-      image: 'homepageBg.jpg',
+      image: './homepageBg.jpg',
       subtitle: 'unisciti al modo di',
       title: (
         <>
@@ -50,7 +50,7 @@ const HeroSlider = () => {
       cta: 'Scopri di più'
     },
     {
-      image: 'homepageBg.jpg',
+      image: './homepageBg.jpg',
       subtitle: 'unisciti al modo di',
       title: (
         <>
