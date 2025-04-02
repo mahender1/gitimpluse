@@ -12,7 +12,7 @@ const  Home = () => {
 <MarqueText/>
 <HomeCategories/>
 <IntroContent/>
-<img src="staticImage.jpg" alt="staticImage.jpg"/>
+<img src="./staticImage.jpg" alt="staticImage.jpg"/>
 <NumberData/>
 </>
   )

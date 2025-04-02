@@ -3,42 +3,42 @@ import BreadCumbs from './component/BreadCumbs';
 
 const cardioCategories = [
   {
-    image: "cat1.png",
+    image: "./cat1.png",
     category: "TAPIS ROULANT",
     link: "CategoryPage",
   },
   {
-    image: "cat2.png",
+    image: "./cat2.png",
     category: "ELLIPTICAL",
     link: "CategoryPage",
   },
   {
-    image: "cat3.png",
+    image: "./cat3.png",
     category: "VERTICAL BIKE",
     link: "CategoryPage",
   },
   {
-    image: "cat4.png",
+    image: "./cat4.png",
     category: "HORIZONTAL BIKE",
     link: "CategoryPage",
   },
   {
-    image: "cat1.png",
+    image: "./cat1.png",
     category: "TAPIS ROULANT",
     link: "CategoryPage",
   },
   {
-    image: "cat1.png",
+    image: "./cat1.png",
     category: "TAPIS ROULANT",
     link: "CategoryPage",
   },
   {
-    image: "cat1.png",
+    image: "./cat1.png",
     category: "TAPIS ROULANT",
     link: "CategoryPage",
   },
   {
-    image: "cat1.png",
+    image: "./cat1.png",
     category: "TAPIS ROULANT",
     link: "CategoryPage",
   },

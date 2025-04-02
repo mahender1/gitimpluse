@@ -3,49 +3,49 @@ import BreadCumbs from './component/BreadCumbs';
 
 const cardioCategoriesContent = [
   {
-    image: "cat1.png",
+    image: "./cat1.png",
     category: "Tapis Roulant",
     cod: "COD: AC850",
     link: "/ProductDetailPage",
   },
   {
-    image: "cat2.png",
+    image: "./cat2.png",
     category: "Tapis Roulant",
     cod: "COD: AC850",
     link: "/ProductDetailPage",
   },
   {
-    image: "cat3.png",
+    image: "./cat3.png",
     category: "Tapis Roulant",
     cod: "COD: AC850",
     link: "/ProductDetailPage",
   },
   {
-    image: "cat4.png",
+    image: "./cat4.png",
     category: "Tapis Roulant",
     cod: "COD: AC850",
     link: "/ProductDetailPage",
   },
   {
-    image: "cat1.png",
+    image: "./cat1.png",
     category: "Tapis Roulant",
     cod: "COD: AC850",
     link: "/ProductDetailPage",
   },
   {
-    image: "cat2.png",
+    image: "./cat2.png",
     category: "Tapis Roulant",
     cod: "COD: AC850",
     link: "/ProductDetailPage",
   },
   {
-    image: "cat3.png",
+    image: "./cat3.png",
     category: "Tapis Roulant",
     cod: "COD: AC850",
     link: "/ProductDetailPage",
   },
   {
-    image: "cat4.png",
+    image: "./cat4.png",
     category: "Tapis Roulant",
     cod: "COD: AC850",
     link: "/ProductDetailPage",

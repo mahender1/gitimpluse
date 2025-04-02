@@ -10,7 +10,7 @@ const  Home = () => {
         breadcumTitle="About US" 
         title="about impulse"
       />
-<img src="staticImage.jpg" alt="staticImage.jpg"/>
+<img src="./staticImage.jpg" alt="staticImage.jpg"/>
 <NumberData/>
 <IntroContent/>
 </>
