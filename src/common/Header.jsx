@@ -34,7 +34,7 @@ function Header() {
           {/* Left-aligned logo */}
           <div className="flex items-center py-2">
             <Link to="/">
-              <img src="./logo.png" alt="Company Logo" className="w-auto z-10 logoImg transition-all duration-300 ease-in-out" />
+              <img src="logo.png" alt="Company Logo" className="w-auto z-10 logoImg transition-all duration-300 ease-in-out" />
             </Link>
           </div>
 
