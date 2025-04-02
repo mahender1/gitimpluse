@@ -1,13 +1,112 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'DM Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+header:before {    content: "";
+  background: #000;
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 24px;
+width:20%;
 }
+.bgBlackHead {
+  background: #000;}
+  .bgBlackHead a {z-index: 99;}
+/* Ensure proper stacking context */
+.sticky-header {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+}
+
+/* Slider adjustments */
+.slick-slider {
+  position: relative;
+  z-index: 10;
+}
+
+/* Responsive height for slides */
+.h-screen-80 {
+  height: 80vh;
+  min-height: 500px;
+}
+
+@media (max-width: 768px) {
+  .h-screen-80 {
+    height: 70vh;
+    min-height: 400px;
+  }
+}
+
+/* Background image handling */
+.bg-cover {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.sliderHeading { color: #E52713;}
+.myheadSlider {display: flex;
+      align-items: center;
+      color: #fff;}
+.myheadSlider span {     height: 10px;
+  background: #E52713;
+  width: 100px;
+}
+.cta {font-size: 17px;
+  border: 1px solid #fff;
+  border-radius: 12px;
+  padding: 10px 15px;font-weight: 600;}
+.statsContainer {    display: flex;
+      color: #fff;
+      justify-content: space-between;
+      gap: 50px;}
+.statsContainer .statsData {text-align: left;
+  border-right: 1px solid #eee;
+  padding-right: 15px;}
+.numberChange span {    font-size: 80px;
+  font-weight: 600;
+  line-height: normal;}
+.numberChange span.suffix {font-weight: 400;
+  color: #E52713;}
+.statsContainer .statsData p span {display: block;}
+.footerMenu {display: flex;
+      flex-direction: column;
+      gap: 10px;}
+.footerMenu a {color: #525252;
+  text-transform: uppercase;}
+.breadCumbs h1 {font-size: 75px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-style: italic;}
+.breadCumbs h1 span {height: 10px;
+    background: #E52713;
+    width: 100px;}
+.crdioBg { background: #000 url(../public/cardio.png) top center no-repeat; background-size: cover;}
+.productPageContent .slick-slide {
+      padding: 0px 15px;
+  }
+
+
+  /* Custom Arrow Styles */
+.proSlid .slick-next:before, .proSlid .slick-prev:before {    color: gray;
+  font-size: 26px;}
+.proSlid .slick-slide img {    opacity: 0.3;}
+.proSlid .slick-slide img:hover,
+.proSlid .slick-current img,
+.proSlid .slick-active {    opacity: 1;}
+.proDesc ul { list-style: disc;
+  padding-left: 15px;}
+.proDesc ul li {    margin-bottom: 5px;}
+.videoFrames iframe {height: 445px;}
+.shrikHeader { background: #000;}
+.shrikHeader .nevigate {align-items: center;}
+.shrikHeader .bgBlackHead {padding-top: 1rem;
+  background: transparent;}
+.shrikHeader .logoImg {    height: 60px;}
