@@ -5,42 +5,42 @@ const cardioCategories = [
   {
     image: "cat1.png",
     category: "TAPIS ROULANT",
-    link: "/CategoryPage",
+    link: "CategoryPage",
   },
   {
     image: "cat2.png",
     category: "ELLIPTICAL",
-    link: "/CategoryPage",
+    link: "CategoryPage",
   },
   {
     image: "cat3.png",
     category: "VERTICAL BIKE",
-    link: "/CategoryPage",
+    link: "CategoryPage",
   },
   {
     image: "cat4.png",
     category: "HORIZONTAL BIKE",
-    link: "/CategoryPage",
+    link: "CategoryPage",
   },
   {
     image: "cat1.png",
     category: "TAPIS ROULANT",
-    link: "/CategoryPage",
+    link: "CategoryPage",
   },
   {
     image: "cat1.png",
     category: "TAPIS ROULANT",
-    link: "/CategoryPage",
+    link: "CategoryPage",
   },
   {
     image: "cat1.png",
     category: "TAPIS ROULANT",
-    link: "/CategoryPage",
+    link: "CategoryPage",
   },
   {
     image: "cat1.png",
     category: "TAPIS ROULANT",
-    link: "/CategoryPage",
+    link: "CategoryPage",
   },
 ];
 
